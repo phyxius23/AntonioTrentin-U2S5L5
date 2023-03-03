@@ -134,13 +134,18 @@ h1 {
 }
 @media screen and (max-width: 1024px) {
    .animation-emme {
-      right: -200px;
+      right: -100px;
    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
+   .animation-emme {
+      right: -200px;
+   }
    .hero h1 {
       font-size: 5.3rem;
    }
+}
+@media screen and (max-width: 768px) {
    .hero h2 {
       width: 60%;
    }
