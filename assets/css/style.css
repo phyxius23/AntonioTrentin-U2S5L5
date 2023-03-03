@@ -9,7 +9,7 @@ a {
 body {
    color: #191919;
    font-family: 'Roboto', sans-serif;
-   font-size: 1.2rem;
+   /* font-size: 1.2rem; */
 }
 h1 {
    font-family: 'Spectral', serif;
@@ -103,10 +103,47 @@ h1 {
    border-bottom: 1px solid #191919;
    position: relative;
    padding: 3rem 0;
+   border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.trending .container {
-   height: 300px;
-   border: 1px solid red;
+.trending-header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+.trending-cards {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   row-gap: 1.5rem;
+}
+.trending-card {
+   width: 31%;
+   display: flex;
+}
+.trending-number {
+   margin-right: 1rem;
+}
+.trending-number span {
+   display: block;
+   font-size: 2rem;
+   color: #e6e6e6;
+}
+.trending-text span {
+   font-size: 0.8rem;
+}
+.trending-author {
+   display: flex;
+   align-items: center;
+   margin-bottom: 0.5rem;
+}
+.trending-author img {
+   width: 20px;
+   border-radius: 100%;
+   margin-right: 0.5rem;
+}
+.trending-text h2 {
+   font-weight: 700;
+   margin-bottom: 0.5rem;
 }
 
 
