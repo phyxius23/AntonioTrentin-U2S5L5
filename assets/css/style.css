@@ -1,0 +1,122 @@
+/* Personal Reset */
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+   color: #191919;
+}
+body {
+   color: #191919;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem;
+}
+h1 {
+   font-family: 'Spectral', serif;
+}
+.container {
+   max-width: 1200px;
+   width: 100%;
+   margin-inline: 50px;
+}
+
+/**
+ * HEADER 
+ * ------------------------------------
+ */
+.header {
+   background-color: #ffc017;
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid #191919;
+}
+.header .container {
+   padding: 25px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header .menu a {
+   display: inline-block;
+   font-size: 0.9rem;
+}
+.header .menu {
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   column-gap: 25px;
+}
+.header .menu a{
+   display: block;
+}
+.btn {
+   display: inline-block;
+   background-color: #191919;
+   color: #ffffff;
+   border: none;
+   padding: 0.8rem 1rem;
+   border-radius: 20px;
+}
+
+/**
+ * MAIN 
+ * ------------------------------------
+ */
+
+ /* HERO SECTION */
+.hero {
+   background-color: #ffc017;
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid #191919;
+   position: relative;
+}
+.hero .container {
+   padding: 90px 0;
+   display: flex;
+   align-items: center;
+}
+.hero h1 {
+   font-size: 6.5rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+}
+.hero h2 {
+   width: 65%;
+   font-size: 1.5rem;
+   line-height: 1.2;
+   margin-bottom: 3rem;
+}
+.hero .btn {
+   padding: 0.8rem 3rem;
+}
+.animation-emme {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+/* TRENDING SECTION */
+.trending {
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid #191919;
+   position: relative;
+   padding: 3rem 0;
+}
+.trending .container {
+   height: 300px;
+   border: 1px solid red;
+}
+
+
+/**
+ * MAIN 
+ * ------------------------------------
+ */
+
+/**
+* MAIN 
+* ------------------------------------
+*/
+
