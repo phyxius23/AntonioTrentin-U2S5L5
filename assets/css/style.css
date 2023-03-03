@@ -259,11 +259,12 @@ h1 {
 .article-header img {
    width: 20px;
    margin-right: 0.5rem;
-   border-radius: 5px;
+   border-radius: 100px;
 }
 .article-text {
    position: relative;
    margin-right: 1.2rem;
+   flex-grow: 1;
 }
 .article-title h2 {
    font-size: 1.4rem;
