@@ -3,7 +3,7 @@
 window.addEventListener('scroll', function() {
    let heightHero = document.querySelector('.hero').offsetHeight;
 
-   if(window.scrollY > (heightHero - 190)){
+   if(window.scrollY > (heightHero - 150)){
 
      document.body.classList.add('scroll-down');
    } else {
