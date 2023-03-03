@@ -318,8 +318,19 @@ h1 {
       padding: 3rem 0;
    }
 }
-
-
+@media screen and (max-width: 551px) {
+   .article-text {
+      flex-grow: 1;
+   }
+   .article-title h3 {
+      display: none;
+   }
+   .article-img img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+   }
+}
 
 /**
 * ASIDE SECTION 
