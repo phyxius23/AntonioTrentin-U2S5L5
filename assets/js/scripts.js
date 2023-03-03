@@ -11,4 +11,21 @@ window.addEventListener('scroll', function(e) {
    }
 });
 
- 
+
+/* EMME (M) ANIMATION 
+-------------------------------------------------------------------------------------------------- */
+let emmeLists = document.querySelectorAll('.hero svg path');
+
+setInterval(()=>{
+
+   let numRandom = Math.floor(Math.random() * emmeLists.length)
+
+   let emme = emmeLists[numRandom]
+
+   if(emme.style.opacity === '0' || emme.style.opacity === ''){
+      emme.style.opacity = 1
+   }else{
+      emme.style.opacity = 0
+   }
+
+}, 30);
